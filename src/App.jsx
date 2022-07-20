@@ -55,6 +55,8 @@ const App = () => {
             onClick={fetchAdvice}
             onMouseDown={() => setButtonShadow(true)}
             onMouseUp={() => setButtonShadow(false)}
+            onPointerDown={() => setButtonShadow(true)}
+            onPointerUp={() => setButtonShadow(false)}
           >
             <img src={diceIcon} alt="" />
           </button>
