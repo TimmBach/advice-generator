@@ -51,7 +51,7 @@ const App = () => {
             }
           ></div>
           <button
-            className="bg-neonGreen hover:before:visible w-16 h-16 border-none outline-none focus:outline-none  z-10 rounded-full flex absolute top-[43vh] mt-[2vh]  justify-center items-center cursor-pointer shadow-2xl"
+            className="bg-neonGreen hover:before:visible w-16 h-16 border-none outline-none focus:outline-none  z-10 rounded-full outline-neonGreen flex absolute top-[43vh] mt-[2vh]  justify-center items-center cursor-pointer shadow-2xl"
             onClick={fetchAdvice}
             onMouseDown={() => setButtonShadow(true)}
             onMouseUp={() => setButtonShadow(false)}
