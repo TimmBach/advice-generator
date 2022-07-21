@@ -46,12 +46,12 @@ const App = () => {
           />
           <div
             className={
-              "absolute top-[41vh] mt-[2vh] bg-neonGreen opacity-40 rounded-full blur-sm w-24 h-24" +
+              "absolute top-[41vh] mt-[2vh] bg-neonGreen opacity-40 rounded-full blur-sm outline-none focus:outline-none w-24 h-24" +
               (!buttonShadow ? "invisible" : "")
             }
           ></div>
           <button
-            className="bg-neonGreen hover:before:visible w-16 h-16 border-none outline-0 outline-transparent outline-hidden  z-10 rounded-full flex absolute top-[43vh] mt-[2vh]  justify-center items-center cursor-pointer shadow-2xl"
+            className="bg-neonGreen hover:before:visible w-16 h-16 border-none outline-none focus:outline-none  z-10 rounded-full flex absolute top-[43vh] mt-[2vh]  justify-center items-center cursor-pointer shadow-2xl"
             onClick={fetchAdvice}
             onMouseDown={() => setButtonShadow(true)}
             onMouseUp={() => setButtonShadow(false)}
